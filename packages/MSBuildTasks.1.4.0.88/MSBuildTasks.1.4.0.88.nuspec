@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MSBuildTasks</id>
+    <version>1.4.0.88</version>
+    <authors>LoreSoft</authors>
+    <owners>LoreSoft</owners>
+    <licenseUrl>http://opensource.org/licenses/bsd-license.php</licenseUrl>
+    <projectUrl>https://github.com/loresoft/msbuildtasks/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The MSBuild Community Tasks project is a collection of open source tasks for MSBuild.</description>
+    <copyright>Copyright (c) 2014, LoreSoft</copyright>
+    <language>en-US</language>
+    <tags>MSBuild build</tags>
+  </metadata>
+</package>

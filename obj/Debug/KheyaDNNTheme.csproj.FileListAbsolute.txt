@@ -1,0 +1,5 @@
+C:\websites\dnndev.me\bin\KheyaDNNTheme.dll
+C:\websites\dnndev.me\bin\KheyaDNNTheme.pdb
+C:\websites\dnndev.me\Portals\_default\Skins\KheyaDNNTheme\obj\Debug\KheyaDNNTheme.dll
+C:\websites\dnndev.me\Portals\_default\Skins\KheyaDNNTheme\obj\Debug\KheyaDNNTheme.pdb
+C:\websites\dnndev.me\Portals\_default\Skins\KheyaDNNTheme\obj\Debug\KheyaDNNTheme.csprojResolveAssemblyReference.cache

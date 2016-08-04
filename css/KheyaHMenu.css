@@ -1,0 +1,421 @@
+body 
+{
+    padding: 0px;
+    margin: 0px;
+}
+.menuwrapper ol,.menuwrapper ul {
+    list-style: outside none none;
+    padding: 0px;
+    margin: 0px;
+}
+.menuwrapper
+{
+    position: relative;
+}
+@media all and (min-width: 768px) {
+    .CornflowerBlue
+    {
+        background-color: CornflowerBlue; /*#4c69ba*/
+    }
+    .menuwrapper {
+        display: block;
+        height: 72px
+    }
+    
+    .menuwrapper ul.KheyaHMenu {
+        display: block;
+        position: relative;
+        z-index: 99;
+        margin: 0 auto;
+        font-family: "Open Sans",sans-serif;
+    }
+
+
+    .menuwrapper ul.KheyaHMenu li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+
+    .menuwrapper ul.KheyaHMenu li a {
+        color: #f5f5f5;
+        display: block;
+        float: left;
+        font-weight: bold;
+        line-height: 70px;
+        padding: 0 20px;
+        position: relative;
+        text-decoration: none;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .menuwrapper .has-sub-munu > a::after {
+        border-left: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+        content: "";
+        display: block;
+        height: 5px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        transform: rotate(-135deg);
+        width: 5px;
+        z-index: 10;
+    }
+    .menuwrapper ul.KheyaHMenu li ul {
+        background: #fff none repeat scroll 0 0;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.45);
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 200px;
+        z-index: -1;
+    }
+    .menuwrapper ul.KheyaHMenu ul li ul {
+    
+        top: 0px;
+    }
+
+    .menuwrapper ul.KheyaHMenu ul li
+    {
+        background-color: white;
+        border-bottom: 1px solid CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li ul li {
+        display: block;
+        width: 200px;
+    }
+    .menuwrapper ul.KheyaHMenu li ul li a {
+        color: #4e5b67;
+        display: block;
+        float: none;
+        line-height: 50px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .menuwrapper .has-child-munu > a::after {
+        border-bottom: 2px solid CornflowerBlue;
+        border-right: 2px solid CornflowerBlue;
+        content: "";
+        height: 4px;
+        position: absolute;
+        right: 10px;
+        top: 23px;
+        transform: rotate(-45deg);
+        transition: border-color 0.2s ease 0s;
+        width: 4px;
+    }
+    .menuwrapper ul.KheyaHMenu > li:hover {
+        background-color: #ffffff;
+        border-top: 2px solid #b6ff00;
+    }
+    .menuwrapper ul.KheyaHMenu > li.has-sub-munu:hover > a::after{
+        border-left: 2px solid CornflowerBlue;
+        border-top: 2px solid CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu ul li:hover {
+        background-color: CornflowerBlue;
+        border-bottom: 2px solid #b6ff00;
+    }
+    .menuwrapper ul.KheyaHMenu ul li:hover > a {
+        background-color: CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu > li.active {
+        background-color: #ffffff;
+        border-top: 2px solid #b6ff00;
+    }
+    .menuwrapper ul.KheyaHMenu > li.active > a::after{
+        border-left: 2px solid CornflowerBlue;
+        border-top: 2px solid CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li.active > a {
+        color: #4e5b67;
+    }
+    .menuwrapper ul.KheyaHMenu ul li.active {
+        background-color: CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu ul li.active > a {
+        background-color: CornflowerBlue;
+        color:white;
+    }
+    .menuwrapper ul.KheyaHMenu ul li.has-child-munu:hover > a::after {
+        border-bottom: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li:hover > a {
+        color: #4e5b67;
+    }
+    .menuwrapper ul.KheyaHMenu ul li:hover > a {
+    
+        color: #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li:hover > ul.floatLeft {
+        display: block;
+        left: 0px;
+    }
+
+    .menuwrapper ul.KheyaHMenu li:hover > ul.floatRight {
+        display: block;
+        right: 0px;
+    }
+
+    .menuwrapper ul.KheyaHMenu li ul li:hover > ul.floatLeft {
+        display: block;
+        left: 195px;
+        top: 20px;
+    }
+    .menuwrapper ul.KheyaHMenu li ul li:hover > ul.floatRight {
+        display: block;
+        left: -195px;
+        top: 20px;
+    }
+    
+
+    /*Theme Start purple*/
+    /*.menucontainer.purple
+    {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li
+    {
+        border-bottom: 1px solid purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li:hover {
+        background-color: purple;
+        border-bottom: 2px solid #b6ff00;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li:hover > a {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li.active {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li.active > a {
+        background-color: purple;
+        color:white;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li:hover > a {
+    
+        color: #ffffff;
+    }
+    .menucontainer.purple .has-child-munu > a::after {
+        border-bottom: 2px solid purple;
+        border-right: 2px solid purple;
+        content: "";
+        height: 4px;
+        position: absolute;
+        right: 10px;
+        top: 23px;
+        transform: rotate(-45deg);
+        transition: border-color 0.2s ease 0s;
+        width: 4px;
+    }
+    .menucontainer.purple ul.KheyaHMenu > li.has-sub-munu:hover > a::after{
+        border-left: 2px solid purple;
+        border-top: 2px solid purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu ul li.has-child-munu:hover > a::after {
+        border-bottom: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }*/
+    /*Theme End*/
+}
+
+@media all and (max-width: 768px) {
+    .menuwrapper {
+        /*background: #ffffff none repeat scroll 0 0;*/
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+    .menucontainer {
+        background: #ffffff none repeat scroll 0 0;
+    }
+    .menuwrapper ul.KheyaHMenu{
+        clear: both;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.45);
+        display: none;
+        position: absolute;
+        z-index: 99;
+        margin: 0 auto;
+        width: 100%;
+        font-family: "Open Sans",sans-serif;
+        left: 0px;
+        top: 49px;
+    }
+    .menuwrapper #menu-button {
+          position: relative;
+          float: right;
+          padding: 9px 10px;
+          margin-top: 8px;
+          margin-right: 15px;
+          margin-bottom: 8px;
+          border-radius: 4px;
+          border-color: #dddddd;
+          clear: both;
+          background-color: CornflowerBlue;
+    }
+    .menuwrapper #menu-button .icon-bar{
+          display: block;
+          width: 22px;
+          height: 2px;
+          border-radius: 1px;
+          background-color: #ffffff;
+          margin-bottom: 3px;
+    }
+    .menuwrapper ul.KheyaHMenu li {
+        display: block;
+        position: relative;
+        background-color: white;
+    }
+    .menuwrapper ul.KheyaHMenu li a {
+        color: black;
+        font-weight: bold;
+        line-height: 40px;
+        padding: 0 35px;
+        position: relative;
+        text-decoration: none;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline;
+    }
+    .menuwrapper ul.KheyaHMenu .has-sub-munu::after {
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        content: "";
+        display: block;
+        height: 5px;
+        right: 30px;
+        top: 15px;
+        transform: rotate(-135deg);
+        width: 5px;
+        z-index: 10;
+        float: right;
+        position: absolute;
+    }
+    .menuwrapper ul.KheyaHMenu li ul {
+        background: #fff none repeat scroll 0 0;
+        display: none;
+        width: auto;
+        padding-left: 20px;
+    }
+    .menuwrapper ul.KheyaHMenu > li
+    {
+        border-top: 1px solid CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li ul li
+    {
+        border-top: 1px solid CornflowerBlue;
+        border-left: 1px solid CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li.menu-active
+    {
+        background-color: CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li:hover > a {
+        background-color: CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li.active {
+        background-color: CornflowerBlue;
+    }
+    .menuwrapper ul.KheyaHMenu li.active > a {
+        background-color: CornflowerBlue;
+        color:white;
+    }
+    .menuwrapper ul.KheyaHMenu li.menu-active > a
+    {
+        color: #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li.menu-active::after
+    {
+        border-left: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li.top-child
+    {
+        border-top: none !important;
+    }
+    .menuwrapper ul.KheyaHMenu li.first-child
+    {
+        border-top: none !important;
+    }
+    .menuwrapper ul.KheyaHMenu .has-child-munu::after {
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        content: "";
+        display: block;
+        height: 5px;
+        right: 30px;
+        top: 15px;
+        transform: rotate(-135deg);
+        width: 5px;
+        z-index: 10;
+        float: right;
+        position: absolute;
+    }
+    .menuwrapper ul.KheyaHMenu li:hover {
+        background-color: CornflowerBlue;
+        color: #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li:hover >a {
+        color: #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu .has-sub-munu:hover::after{
+        border-left: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+    }
+    .menuwrapper ul.KheyaHMenu li a:hover {
+        background-color: CornflowerBlue;
+    }
+    
+    /*Theme Start purple*/
+    /*.menucontainer.purple #menu-button {
+          background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li:hover {
+        background-color: purple;
+        color: #ffffff;
+    }
+    .menucontainer.purple ul.KheyaHMenu li:hover::after{
+        border-left: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+    }
+    .menucontainer.purple ul.KheyaHMenu > li
+    {
+        border-top: 1px solid purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li ul li
+    {
+        border-top: 1px solid purple;
+        border-left: 1px solid purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li.menu-active
+    {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li:hover > a {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li.active {
+        background-color: purple;
+    }
+    .menucontainer.purple ul.KheyaHMenu li.active > a {
+        background-color: purple;
+        color:white;
+    }
+    .menucontainer.purple ul.KheyaHMenu li.menu-active > a
+    {
+        color: #ffffff;
+    }
+    .menucontainer.purple ul.KheyaHMenu li.menu-active::after{
+        border-left: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+    }
+    .menucontainer.purple ul.KheyaHMenu > li.has-sub-munu:hover > a::after{
+        border-left: 2px solid purple;
+        border-top: 2px solid purple;
+    }*/
+    /*Theme End*/
+}

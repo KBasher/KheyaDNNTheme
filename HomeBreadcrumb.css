@@ -1,0 +1,290 @@
+﻿body{
+    padding:0px;
+    margin:0px;
+    font-size:12px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.dnnSortable {
+    min-height: 40px !important;
+}
+/*Header Start*/
+.searchInputContainer {
+  display: inline-block !important;
+  margin: 0 -3px 0 0 !important;
+  position: relative !important;
+}
+input.NormalTextBox:first-child
+{
+    border-radius: 20px;
+  width: 170px;
+  font-size: 0.9em;
+  padding: 6px 32px 6px 12px;
+  height: 34px;
+  transition: all 0.2s ease-in 0.2s;
+}
+input.NormalTextBox {
+    display: block;
+  float: left;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+}
+.SearchButton {
+  border: 0;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+.SearchButton {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.SearchButton:before {
+  content: "\f002";
+  text-decoration: none;
+  color: #4e5b67;
+}
+.SearchButton:hover{
+    text-decoration:none;
+    opacity: .6;
+}
+.navbar-login{
+    /*background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+    background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );*/
+    padding-top: 5px;
+}
+.navbar-login .registerGroup a, .navbar-login .loginGroup a {
+  height: 32px;
+  padding: 10px 16px;
+  line-height: 16px;
+  color:#4e5b67;
+  font-size:12px;
+}
+.searchInputContainer a.dnnSearchBoxClearText{
+    right: 34px !important;
+    margin: 9px 0 7px 0;
+}
+.logo {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    color: transparent;
+    float:left;
+    background-color:white;
+}
+.logo img{
+    height:92px;
+}
+.navbar-toggle {
+    background-color:black;
+}
+.navbar-toggle .icon-bar{
+    background-color:white;
+}
+.loginUserWrapper{
+    
+}
+.searchwrapper{
+    float:right;
+    position:relative;
+}
+.menuwrapper
+{
+    position:relative;
+    margin-top: -52px;
+}
+@media (max-width: 768px) {
+    .searchwrapper
+    {
+        display:none !important;
+    }
+    .loginUserWrapper .nav {
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    .loginUserWrapper .navbar-nav {
+      margin: 0px;
+    }
+    .loginUserWrapper .navbar-right {
+      float: right !important;
+    }
+    .loginUserWrapper .navbar-nav>li {
+      float: left;
+    }
+    .loginUserWrapper .nav>li {
+      position: relative;
+      display: block;
+    }
+}
+@media (min-width: 768px) {
+    
+}
+.container>.navbar-header
+{
+    float:right;
+}
+.navbar-nav
+{
+    margin:0px;
+}
+.breadcrumbs-wrapper
+{
+    background-color: #171717;
+    border-bottom: 5px solid #CCC;
+    border-top: 5px solid #CCC;
+    min-height: 80px;
+    position: relative;
+    color:#ffffff;
+    opacity:0.6;
+}
+.breadcrumbs-wrapper .breadcrumbs
+{
+    line-height: 80px;
+    text-align:right;
+    font-size:12px;   
+}
+.breadcrumbs-wrapper h1
+{
+    color:#ffffff;
+    font-size:24px;
+}
+.menuwrapper .dropdown-menu
+{
+    position:relative;
+    float:none;
+    box-shadow:none;
+    border-radius:0px;
+    border:0px;
+}
+.caret{
+    display:none;
+}
+
+.social-links-wrapper{
+    position:relative;
+}
+header .social-links-wrapper{
+    float:right;
+    position:relative;
+    padding-left:10px;
+}
+header ul.social-links {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+header ul.social-links li {
+    display: inline-block;
+    margin: -1px 1px 5px 0;
+    padding: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    background:pink;
+    border-radius:50%;
+}
+header ul.social-links li a {
+  display: block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  color:black;
+}
+/*Header End*/
+
+/*Panel Start*/
+    /*Common*/
+        .TopUpperPaneFull h1, .TopUpperPaneFull h2, .TopUpperPaneFull h3,
+        .TopLowerPaneFull h1, .TopLowerPaneFull h2, .TopLowerPaneFull h3,
+        .BottomUpperPaneFull h1, .BottomUpperPaneFull h2,.BottomUpperPaneFull h3,
+        .BottomLowerPaneFull h1, .BottomLowerPaneFull h2, .BottomLowerPaneFull h3,
+
+        .TopUpperPane h1, .TopUpperPane h2, .TopUpperPane h3,
+        .TopPane h1, .TopPane h2, .TopPane h3,
+        .TopLowerPane h1, .TopLowerPane h2, .TopLowerPane h3,
+        .ContentUpperPane h1, .ContentUpperPane h2, .ContentUpperPane h3,
+        .ContentLowerPane h1, .ContentLowerPane h2, .ContentLowerPane h3
+        {
+            text-align:center;
+        }
+    /*Common*/
+.TopUpperPaneFull{}
+
+.TopUpperPane{}
+
+.TopUpperPaneLeft {}
+
+.TopUpperPaneRight {}
+
+.TopPane{}
+
+.TopLowerPaneLeft{}
+
+.TopLowerPaneRight{}
+
+.TopLowerPane{}
+
+.TopLowerPaneFull{}
+
+.TopLeftPane{}
+.TopMiddlePane{}
+.TopRightPane{}
+
+.LeftSidebar{}
+.LeftSidebarOuter{}
+
+.RightSidebarOuter{}
+.RightSidebar{}
+
+.TopLeftOuter{}
+.TopLeftInner{}
+.TopRightInner{}
+.TopRightOuter{}
+
+.ContentUpperPane{}
+
+.contentPane{}
+
+.ContentLowerPane{}
+
+.BottomUpperPaneFull{}
+
+.BottomUpperPane{}
+
+.BottomUpperPaneLeft{}
+
+.BottomUpperPaneRight{}
+
+.BottomPane{}
+
+.BottomLowerPaneLeft{}
+
+.BottomLowerPaneRight{}
+
+.BottomLowerPane{}
+
+.BottomLeftOuter{}
+.BottomLeftInner{}
+.BottomRightInner{}
+.BottomRightOuter{}
+
+.BottomLowerPaneFull{}
+
+/*Panel End*/
