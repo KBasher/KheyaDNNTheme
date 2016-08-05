@@ -12,7 +12,12 @@ Follow the link http://www.christoc.com/Tutorials/All-Tutorials/aid/1 to setup y
 After finishing the development environment the following things will be setup.<br />
 i)	The DNN install package will be in the folder c:\websites\dnndev.me.<br />
 ii)	A site with name dnndev.me will be created in IIS and will be running.<br />
-iii)	Browse the site http://dnndev.me/  for the first time and configure it and after configuration finished a new database with name dnndev.me will be created in SQL Server.
+iii)	Browse the site http://dnndev.me/  for the first time and configure it and after configuration finished a new database with name dnndev.me will be created in SQL Server. <br/>
+The screenshot for IIS is shown below
+<p align="center">
+  <img src="https://s31.postimg.org/gi570i9p7/iis.jpg" width="350"/>
+</p>
+
 2.	This link http://www.christoc.com/Tutorials/All-Tutorials/aid/2 shows where and how to get DNN theme development templates. 
 3.	Now download the Theme from GitHub link https://github.com/KBasher/KheyaDNNTheme and unzip it and put the downloaded theme folder into the folder C:\inetpub\wwwroot\dotnetnuke\Portals\_default\Skins
 4.	Open the solution file using VS2013 as administrator mode.
