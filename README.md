@@ -1,4 +1,4 @@
-KheyaDNNTheme
+DNN Theme
 ==========
 
 Description
