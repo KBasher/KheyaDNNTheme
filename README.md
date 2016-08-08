@@ -15,7 +15,7 @@ ii)	A site with name dnndev.me will be created in IIS and will be running.<br />
 iii)	Browse the site http://dnndev.me/  for the first time and configure it and after configuration finished a new database with name dnndev.me will be created in SQL Server. <br/>
 The screenshot for IIS is shown below
 <p align="center">
-  <img src="https://s31.postimg.org/gi570i9p7/iis.jpg" width="350"/>
+  <img src="https://s31.postimg.org/gi570i9p7/iis.jpg" width="600"/>
 </p>
 
 2.	This link http://www.christoc.com/Tutorials/All-Tutorials/aid/2 shows where and how to get DNN theme development templates. 
